@@ -1,16 +1,15 @@
 # game_dice
 
-A new Flutter project.
+My Second Flutter Project
 
-## Getting Started
+## Here is the Result
 
-This project is a starting point for a Flutter application.
+![Gif dice game](https://user-images.githubusercontent.com/74512232/161043386-9c470b17-c6f5-46c5-a5bf-0bd465d8bf82.gif)
 
-A few resources to get you started if this is your first Flutter project:
+## Assets used
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Dice pictures:   https://www.vecteezy.com/free-vector/dice 
+Background picture: https://freepik.com
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
