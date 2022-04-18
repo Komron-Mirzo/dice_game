@@ -1,6 +1,6 @@
 import 'dart:math';
-
 import 'package:flutter/material.dart';
+import 'package:audioplayers/audioplayers.dart';
 
 void main() {
   return runApp(
@@ -30,8 +30,11 @@ class _DicePageState extends State<DicePage> {
     setState(() {
       rightDiceNumber = Random().nextInt(6) + 1;
       leftDiceNumber = Random().nextInt(6) + 1;
+      player.play('dice_roll.wav');
     });
   }
+
+  static AudioCache player = AudioCache(prefix: 'sounds/');
 
   @override
   Widget build(BuildContext context) {
